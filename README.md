@@ -1,4 +1,4 @@
-# Web Scrapping.
+# Web Scraping.
  
 Here you will see the code for scraping a video website. 
 

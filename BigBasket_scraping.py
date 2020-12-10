@@ -26,6 +26,17 @@ for x in drop_down:
                 break
         for y in range(0, len(condition)):
             if isinstance(json_text['tab_info'], list):
-                print(parent, '->', slug, '->' ,json_text['tab_info'][0]['product_info']['products'][y]['p_desc'])
+                products = parent, '->', slug, '->' ,json_text['tab_info'][0]['product_info']['products'][y]['p_desc']
+                #print(products)
             else:
-                print(parent, '->', slug, '->' , json_text['tab_info']['product_map']['all']['prods'][y]['p_desc'])
+                products = parent, '->', slug, '->' , json_text['tab_info']['product_map']['all']['prods'][y]['p_desc']
+                #print(products1)
+            f = open('BBscraping.txt', 'a+')
+            products_str = " ".join(products)
+            print(products_str)
+            if len(products) > 0: 
+                f.write("\n")
+            f.write(products_str)
+            f.close()
+                # print(products_str)
+                # print(products1_str)

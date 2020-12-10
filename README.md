@@ -24,7 +24,7 @@ For Big Basket web scraping, please run thihs command.
 ```sh
 pyhton BigBasket_scraping.py
 ```
-
+In BBscraping.txt you can find all the products name along with their category.
 
 
 

@@ -20,6 +20,12 @@ Now you have to run this command to have the name and link from the website.
 ```sh
 python HDvideos.py
 ```
+For Big Basket web scraping, please run thihs command.
+```sh
+pyhton BigBasket_scraping.py
+```
+
+
 
 
 

@@ -34,7 +34,7 @@ for x in drop_down:
             f = open('BBscraping.txt', 'a+')
             products_str = " ".join(products)
             print(products_str)
-            if len(products) > 0: 
+            if len(products) > 0:  
                 f.write("\n")
             f.write(products_str)
             f.close()

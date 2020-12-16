@@ -26,6 +26,12 @@ pyhton BigBasket_scraping.py
 ```
 In BBscraping.txt you can find all the products name along with their category.
 
+For Being-Human web scraping, please run thihs command.
+```sh
+pyhton Being--Human.py
+```
+In Being--Human.txt you can find al the products along with their category.
+
 
 
 
